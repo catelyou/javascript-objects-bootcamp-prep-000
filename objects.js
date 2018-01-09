@@ -3,9 +3,9 @@ var playlist = {
   christina: 'home',
   justin: 'sexyback'
 };
-function updatePlaylist {
+function updatePlaylist(obj, key, value) {
 
 }
-function removeFromPlaylist {
-  
+function removeFromPlaylist() {
+  return delete playlist.britney
 }
